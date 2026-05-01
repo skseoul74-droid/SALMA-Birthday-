@@ -1,0 +1,43 @@
+body{
+  margin:0;
+  font-family:Arial;
+  background:black;
+  color:white;
+  text-align:center;
+}
+
+#lock{
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+}
+
+input{
+  padding:10px;
+  margin:10px;
+}
+
+button{
+  padding:10px 20px;
+  border:none;
+  border-radius:10px;
+}
+
+#title{
+  font-size:35px;
+  color:#00ffe5;
+  text-shadow:0 0 10px #00ffe5;
+}
+
+.cake{
+  font-size:60px;
+  cursor:pointer;
+}
+
+canvas{
+  position:fixed;
+  top:0;
+  left:0;
+}
