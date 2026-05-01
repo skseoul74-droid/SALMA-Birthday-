@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Happy Birthday Salma 🎉</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="lock">
+  <h2>Enter Password 🔐</h2>
+  <input type="password" id="pass">
+  <button onclick="check()">Unlock</button>
+</div>
+
+<div id="main" style="display:none;">
+  <h1 id="title"></h1>
+  <h2 id="countdown"></h2>
+  <p id="typing"></p>
+
+  <img id="slide" width="200">
+
+  <div class="cake" onclick="cutCake()">🎂</div>
+
+  <button onclick="playVoice()">🎤 Play Message</button>
+
+  <canvas id="fireworks"></canvas>
+</div>
+
+<audio id="music" loop>
+  <source src="https://www.bensound.com/bensound-music/bensound-happyrock.mp3">
+</audio>
+
+<audio id="voice">
+  <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3">
+</audio>
+
+<script src="script.js"></script>
+
+</body>
+</html>
